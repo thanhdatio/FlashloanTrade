@@ -25,7 +25,7 @@ import "https://github.com/thanhdatio/FlashloanTrade/blob/master/flashloan/ILend
 import "https://github.com/thanhdatio/FlashloanTrade/blob/master/swap/IUniswapV2Router02.sol";
 import "https://github.com/thanhdatio/FlashloanTrade/blob/master/token/SafeMath.sol";
 
-contract FlashArbTrader is FlashLoanReceiverBase {
+abstract contract FlashArbTrader is FlashLoanReceiverBase {
 
     using SafeMath for uint256;
     IUniswapV2Router02 uniswapV2Router;
