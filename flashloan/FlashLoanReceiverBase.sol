@@ -1,11 +1,11 @@
 pragma solidity ^0.6.6;
 
-import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/math/SafeMath.sol";
-import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/IERC20.sol";
-import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/SafeERC20.sol";
-import "./IFlashLoanReceiver.sol";
-import "./ILendingPoolAddressesProvider.sol";
-import "../utils/Withdrawable.sol";
+import "https://github.com/thanhdatio/FlashloanTrade/blob/master/token/SafeMath.sol";
+import "https://github.com/thanhdatio/FlashloanTrade/blob/master/token/IERC20.sol";
+import "https://github.com/thanhdatio/FlashloanTrade/blob/master/token/SafeERC20.sol";
+import "https://github.com/thanhdatio/FlashloanTrade/blob/master/flashloan/IFlashLoanReceiver.sol";
+import "https://github.com/thanhdatio/FlashloanTrade/blob/master/flashloan/ILendingPoolAddressesProvider.sol";
+import "https://github.com/thanhdatio/FlashloanTrade/blob/master/flashloan/Withdrawable.sol";
 
 abstract contract FlashLoanReceiverBase is IFlashLoanReceiver, Withdrawable {
 
