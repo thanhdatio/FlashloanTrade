@@ -22,8 +22,8 @@ import "https://github.com/thanhdatio/FlashloanTrade/blob/master/flashloan/ILend
 import "https://github.com/thanhdatio/FlashloanTrade/blob/master/flashloan/ILendingPool.sol";
 
 // importing both Sushiswap V1 and Uniswap V2 Router02 dependencies
-import "https://github.com/sushiswap/sushiswap/blob/master/contracts/uniswapv2/interfaces/IUniswapV2Router02.sol";
-import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/math/SafeMath.sol";
+import "https://github.com/thanhdatio/FlashloanTrade/blob/master/swap/IUniswapV2Router02.sol";
+import "https://github.com/thanhdatio/FlashloanTrade/blob/master/token/SafeMath.sol";
 
 contract FlashArbTrader is FlashLoanReceiverBase {
 
