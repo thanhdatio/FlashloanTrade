@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: agpl-3.0
 pragma solidity 0.6.12;
 
-import {ILendingPoolAddressesProvider} from 'https://github.com/thanhdatio/FlashloanTrade/blob/master/flashloan/ILendingPoolAddressesProvider.sol';
-import {ILendingPool} from 'https://github.com/thanhdatio/FlashloanTrade/blob/master/flashloan/ILendingPool.sol';
+import {ILendingPoolAddressesProvider} from './ILendingPoolAddressesProvider.sol';
+import {ILendingPool} from './ILendingPool.sol';
 
 /**
  * @title IFlashLoanReceiver interface
